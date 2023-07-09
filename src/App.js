@@ -1,5 +1,13 @@
+import Todo from "./components/Todo";
+
 const App = () => {
-  return <div>Hello</div>;
+  return (
+    <div>
+      <h1>My Todos</h1>
+      <Todo text="Confirm" />
+      <Todo text="Delete" />
+    </div>
+  );
 };
 
 export default App;
